@@ -1,0 +1,39 @@
+@-ms-viewport
+  width: device-width
+
+html
+  box-sizing: border-box
+  -ms-overflow-style: scrollbar
+
+*, *::before, *::after
+  box-sizing: inherit
+
+body
+  margin: 0
+  font-family: "Montserrat", Arial, sans-serif
+
+button, input, textarea
+  font-family: "Montserrat", Arial, sans-serif
+
+  &:active, &:hover, &:focus
+    outline: 0
+    outline-offset: 0
+
+button
+
+  &:hover
+    cursor: pointer
+
+input
+
+  &:invalid
+    box-shadow: none
+
+  &:-moz-submit-invalid
+    box-shadow: none
+
+  &:-moz-ui-invalid
+    box-shadow: none
+
+a
+  text-decoration: none
