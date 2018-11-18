@@ -461,13 +461,13 @@ a {
   box-shadow: 10px 10px 10px rgba(92, 95, 101, 0.28), 5px 9px 12px rgba(61, 61, 62, 0.15);
 }
 
-.questions {
+.feedback {
   position: relative;
   padding-top: 30px;
   padding-bottom: 105px;
 }
 
-.questions:after {
+.feedback:after {
   content: '';
   position: absolute;
   display: block;
@@ -485,18 +485,18 @@ a {
   margin-right: auto;
 }
 
-.questions__form {
+.feedback__form {
   padding-top: 100px;
 }
 
-.questions-form {
+.feedback-form {
   max-width: 552px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.questions-form__inp, .questions-form__textarea {
+.feedback-form__inp, .feedback-form__textarea {
   display: block;
   width: 100%;
   border: none;
@@ -507,12 +507,12 @@ a {
   line-height: 50.96px;
 }
 
-.questions-form__inp {
+.feedback-form__inp {
   margin-bottom: 13px;
   height: 45px;
 }
 
-.questions-form__textarea {
+.feedback-form__textarea {
   margin-bottom: 35px;
   height: 125px;
 }
@@ -1155,15 +1155,15 @@ a {
   .interface .slick-list {
     margin: 0 -10px;
   }
-  /* Questions */
-  .questions {
+  /* feedback */
+  .feedback {
     padding-top: 20px;
     padding-bottom: 75px;
   }
-  .questions:after {
+  .feedback:after {
     width: 70%;
   }
-  .questions__form {
+  .feedback__form {
     padding-top: 70px;
   }
 }
@@ -1302,18 +1302,18 @@ a {
     -moz-box-shadow: none;
     box-shadow: none;
   }
-  /* Questions */
-  .questions {
+  /* feedback */
+  .feedback {
     padding-top: 10px;
     padding-bottom: 55px;
   }
-  .questions:after {
+  .feedback:after {
     width: 85%;
   }
-  .questions__form {
+  .feedback__form {
     padding-top: 70px;
   }
-  .questions-form {
+  .feedback-form {
     max-width: 500px;
   }
   /* footer */
@@ -1455,29 +1455,29 @@ a {
   .interface .slick-list {
     margin: 0 -5px;
   }
-  /* Questions */
-  .questions {
+  /* feedback */
+  .feedback {
     padding-top: 10px;
     padding-bottom: 40px;
   }
-  .questions:after {
+  .feedback:after {
     width: 90%;
   }
-  .questions__form {
+  .feedback__form {
     padding-top: 15px;
   }
-  .questions-form {
+  .feedback-form {
     max-width: 400px;
     width: 90%;
   }
-  .questions-form__inp, .questions-form__textarea {
+  .feedback-form__inp, .feedback-form__textarea {
     font-size: 14px;
   }
-  .questions-form__inp {
+  .feedback-form__inp {
     margin-bottom: 9px;
     height: 40px;
   }
-  .questions-form__textarea {
+  .feedback-form__textarea {
     margin-bottom: 20px;
     height: 100px;
   }
