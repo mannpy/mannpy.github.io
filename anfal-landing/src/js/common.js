@@ -35,7 +35,7 @@ $(document).ready(function(){
 
   /* popup */
 
-  $(".header-content__btn").on("click", function() {
+  $("#video-button").on("click", function() {
     $(".overlay").show();
     $("#video-popup").show();
   });
