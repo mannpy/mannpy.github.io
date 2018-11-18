@@ -9,6 +9,8 @@
     <title>Anfal</title>
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -41,7 +43,7 @@
       <div class="container">
         <div class="current-state-wrap">
 
-          <div class="current-state-block current-state__block">
+          <div class="current-state-block current-state__block wow fadeInUp">
             <div class="current-state-block__img">
               <img src="img/current-state/pdf.svg" alt="Pdf">
             </div>
@@ -50,7 +52,7 @@
           </div>
           <!-- /.current-state-block current-state__block -->
 
-          <div class="current-state-block current-state__block">
+          <div class="current-state-block current-state__block wow fadeInUp" data-wow-delay="0.2s">
             <div class="current-state-block__img">
               <img src="img/current-state/time-left.svg" alt="Time Left">
             </div>
@@ -59,7 +61,7 @@
           </div>
           <!-- /.current-state-block current-state__block -->
 
-          <div class="current-state-block current-state__block">
+          <div class="current-state-block current-state__block wow fadeInUp" data-wow-delay="0.4s">
             <div class="current-state-block__img">
               <img src="img/current-state/book.svg" alt="Books">
             </div>
@@ -69,7 +71,7 @@
           </div>
           <!-- /.current-state-block current-state__block -->
 
-          <div class="current-state-block current-state__block">
+          <div class="current-state-block current-state__block wow fadeInUp" data-wow-delay="0.4s">
             <div class="current-state-block__img">
               <img src="img/current-state/money-bag.svg" alt="Money Bag">
             </div>
@@ -91,7 +93,7 @@
         <div class="offer-wrap">
 
           <div class="offer-features offer__features">
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp">
               <div class="offer-feature__img">
                 <img src="img/features/text.svg" alt="Text">
               </div>
@@ -102,7 +104,7 @@
             </div>
             <!-- /.offer-feature -->
 
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp" data-wow-delay="0.2s">
               <div class="offer-feature__img">
                 <img src="img/features/search.svg" alt="Search">
               </div>
@@ -113,7 +115,7 @@
             </div>
             <!-- /.offer-feature -->
 
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp" data-wow-delay="0.4s">
               <div class="offer-feature__img">
                 <img src="img/features/books.svg" alt="Books">
               </div>
@@ -133,7 +135,7 @@
           <!-- /.offer__img -->
 
           <div class="offer-features offer__features">
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp">
               <div class="offer-feature__img">
                 <img src="img/features/ipad.svg" alt="iPad">
               </div>
@@ -144,7 +146,7 @@
             </div>
             <!-- /.offer-feature -->
 
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp" data-wow-delay="0.2s">
               <div class="offer-feature__img">
                 <img src="img/features/synchronization.svg" alt="Sync">
             </div>
@@ -155,7 +157,7 @@
             </div>
             <!-- /.offer-feature -->
 
-            <div class="offer-feature">
+            <div class="offer-feature wow fadeInUp" data-wow-delay="0.4s">
               <div class="offer-feature__img">
                 <img src="img/features/audiobook.svg" alt="AudioBook">
             </div>
@@ -176,11 +178,70 @@
     </section>
     <!-- /.offer -->
 
-    <!-- <i class="fab fa-twitter"></i>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-google-plus-g"></i>
-    <i class="fab fa-tumblr"></i>
-    <i class="fab fa-pinterest-p"></i>
-    <i class="fab fa-linkedin-in"></i> -->
+    <section class="interface">
+      <h2 class="section-title">Интерфейс приложения</h2>
+      <div class="slider interface__slider">
+        <div class="slider-item slider__item">
+          <img src="img/interface/screen-1.jpg" alt="Screen 1" class="slider-item__img">
+        </div>
+        <!-- /.slider-item slider__item -->
+        <div class="slider-item slider__item">
+          <img src="img/interface/screen-2.jpg" alt="Screen 2" class="slider-item__img">
+        </div>
+        <!-- /.slider-item slider__item -->
+        <div class="slider-item slider__item">
+          <img src="img/interface/screen-3.jpg" alt="Screen 3" class="slider-item__img">
+        </div>
+        <!-- /.slider-item slider__item -->
+        <div class="slider-item slider__item">
+          <img src="img/interface/screen-4.jpg" alt="Screen 4" class="slider-item__img">
+        </div>
+        <!-- /.slider-item slider__item -->
+        <div class="slider-item slider__item">
+          <img src="img/interface/screen-5.jpg" alt="Screen 5" class="slider-item__img">
+        </div>
+        <!-- /.slider-item slider__item -->
+      </div>
+      <a href="#" class="btn bg-active interface__btn">Помочь проекту</a>
+    </section>
+    <!-- /.interface -->
+
+    <section class="questions">
+      <h2 class="section-title">Остались вопросы?</h2>
+      <form action="#" method="POST" class="questions-form questions__form">
+        <input type="text" name="name" id="name" class="questions-form__inp" placeholder="Ваше имя" required>
+        <input type="text" name="title" id="title" class="questions-form__inp" placeholder="Тема сообщения" required>
+        <input type="email" name="email" id="email" class="questions-form__inp" placeholder="E-mail" required>
+        <textarea name="message" id="message" class="questions-form__textarea" placeholder="Текст сообщения" required></textarea>
+        <button type="submit" class="btn bg-active questions-form__btn">Отправить</button>
+      </form>
+    </section>
+    <!-- /.questions -->
+
+    <footer class="footer">
+      <a href="#" class="footer__link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="footer__link"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="footer__link"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#" class="footer__link"><i class="fab fa-tumblr"></i></a>
+      <a href="#" class="footer__link"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" class="footer__link"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
+    <!-- /.footer -->
+
+    <div class="overlay" id="overlay">
+      <div class="popup" id="video-popup">
+      <div class="popup__close">&times;</div>
+      <div class="popup__video">
+        <iframe src="https://www.youtube.com/embed/MHUGR3Ejly8" allowfullscreen class="popup-video"></iframe>
+      </div>
+      </div>
+    </div>
+    <!-- /.overlay -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/common.js"></script>
   </body>
 </html>

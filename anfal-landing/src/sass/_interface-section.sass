@@ -1,0 +1,46 @@
+.interface
+  padding-top: 15px
+  padding-bottom: 115px
+  background-color: $light
+  text-align: center
+
+
+  .slider
+    position: relative
+    z-index: 1
+    max-width: 1476px
+    margin-top: 235px
+    margin-left: auto
+    margin-right: auto
+
+    &:after
+      content: ''
+      z-index: -1
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translate(-50%, -11%)
+      width: 20.87%
+      height: 84.59%
+      background:  rgba(61, 61, 62, 0.15)url(../img/interface/iPhone-6.png) center/cover no-repeat
+      border-radius: 50px
+      box-shadow: 22px 38px 66px rgba(92, 95, 101, 0.28), 5px 9px 16px rgba(61, 61, 62, 0.15)
+
+    &__item
+      margin: 0 17px 252px 17px
+    
+    &-item
+      outline: none
+
+      &__img
+        max-width: 100%
+
+  .slick
+
+    &-list
+      margin: 0 -17px
+
+    &-slide:not(:nth-child(3)) 
+      box-shadow: 10px 10px 10px rgba(92, 95, 101, 0.28), 5px 9px 12px rgba(61, 61, 62, 0.15)
+
+      

@@ -1,0 +1,45 @@
+.questions
+  position: relative
+  padding-top: 30px
+  padding-bottom: 105px
+
+  &:after
+    content: ''
+    position: absolute
+    display: block
+    width: 60%
+    height: 2px
+    background-color: rgba(#ddd, 0.8)
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 0
+    margin-left: auto
+    margin-right: auto
+
+
+  &__form
+    padding-top: 100px
+
+  &-form
+    max-width: 552px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+
+    &__inp, &__textarea
+      display: block
+      width: 100%
+      border: none
+      border-bottom: 1px rgba(#26292c, 0.5) solid
+      color: rgba(#26292c, 0.6)
+      font-size: 15px
+      font-weight: 500
+      line-height: 50.96px
+
+    &__inp
+      margin-bottom: 13px
+      height: 45px
+      
+    &__textarea
+      margin-bottom: 35px
+      height: 125px
