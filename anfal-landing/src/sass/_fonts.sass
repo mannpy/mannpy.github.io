@@ -1,10 +1,17 @@
 =font-face($family, $path, $name, $svg, $weight: normal, $style: normal)
   @font-face
     font-family: $family
+    font-display: swap
     src: url('#{$path}/#{$name}.eot')
-    src: url('#{$path}/#{$name}.eot?#iefix') format('embedded-opentype'), url('#{$path}/#{$name}.woff') format('woff'), url('#{$path}/#{$name}.ttf') format('truetype'), url('#{$path}/#{$name}.svg##{$svg}') format('svg')
+    src: url('#{$path}/#{$name}.eot?#iefix') format('embedded-opentype'), url('#{$path}/#{$name}.woff2') format('woff2'), url('#{$path}/#{$name}.woff') format('woff'), url('#{$path}/#{$name}.ttf') format('truetype'), url('#{$path}/#{$name}.svg##{$svg}') format('svg')
     font-weight: $weight
     font-style: $style
+
+/* font-family: "Velocity"; */
++font-face('Velocity', '../fonts/Velocity', 'Velocity', 'Velocity')
+
+/* font-family: "MyriadPro - Regular"; */
++font-face('MyriadPro', '../fonts/MyriadPro-Regular', 'MyriadPro-Regular', 'MyriadPro-Regular')
 
 /* font-family: "Montserrat - Light"; */
 +font-face('Montserrat', '../fonts/Montserrat-Light', 'Montserrat-Light', 'Montserrat-Light', 300)
@@ -17,9 +24,3 @@
 
 /* font-family: "Montserrat - Bold"; */
 +font-face('Montserrat', '../fonts/Montserrat-Bold', 'Montserrat-Bold', 'Montserrat-Bold', 700)
-
-/* font-family: "MyriadPro - Regular"; */
-+font-face('MyriadPro', '../fonts/MyriadPro-Regular', 'MyriadPro-Regular', 'MyriadPro-Regular')
-
-/* font-family: "Velocity"; */
-+font-face('Velocity', '../fonts/Velocity', 'Velocity', 'Velocity')

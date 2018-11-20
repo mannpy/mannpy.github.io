@@ -61,11 +61,32 @@ a {
   margin-left: auto;
 }
 
+/* font-family: "Velocity"; */
+@font-face {
+  font-family: "Velocity";
+  font-display: swap;
+  src: url("../fonts/Velocity/Velocity.eot");
+  src: url("../fonts/Velocity/Velocity.eot?#iefix") format("embedded-opentype"), url("../fonts/Velocity/Velocity.woff2") format("woff2"), url("../fonts/Velocity/Velocity.woff") format("woff"), url("../fonts/Velocity/Velocity.ttf") format("truetype"), url("../fonts/Velocity/Velocity.svg#Velocity") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font-family: "MyriadPro - Regular"; */
+@font-face {
+  font-family: "MyriadPro";
+  font-display: swap;
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* font-family: "Montserrat - Light"; */
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: url("../fonts/Montserrat-Light/Montserrat-Light.eot");
-  src: url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light/Montserrat-Light.ttf") format("truetype"), url("../fonts/Montserrat-Light/Montserrat-Light.svg#Montserrat-Light") format("svg");
+  src: url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light/Montserrat-Light.ttf") format("truetype"), url("../fonts/Montserrat-Light/Montserrat-Light.svg#Montserrat-Light") format("svg");
   font-weight: 300;
   font-style: normal;
 }
@@ -73,8 +94,9 @@ a {
 /* font-family: "Montserrat - Regular"; */
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: url("../fonts/Montserrat-Regular/Montserrat-Regular.eot");
-  src: url("../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  src: url("../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -82,8 +104,9 @@ a {
 /* font-family: "Montserrat - Medium"; */
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot");
-  src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
+  src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
 }
@@ -91,27 +114,10 @@ a {
 /* font-family: "Montserrat - Bold"; */
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot");
-  src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
   font-weight: 700;
-  font-style: normal;
-}
-
-/* font-family: "MyriadPro - Regular"; */
-@font-face {
-  font-family: "MyriadPro";
-  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
-  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* font-family: "Velocity"; */
-@font-face {
-  font-family: "Velocity";
-  src: url("../fonts/Velocity/Velocity.eot");
-  src: url("../fonts/Velocity/Velocity.eot?#iefix") format("embedded-opentype"), url("../fonts/Velocity/Velocity.woff") format("woff"), url("../fonts/Velocity/Velocity.ttf") format("truetype"), url("../fonts/Velocity/Velocity.svg#Velocity") format("svg");
-  font-weight: normal;
   font-style: normal;
 }
 
