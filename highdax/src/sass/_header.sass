@@ -1,0 +1,63 @@
+.header
+  margin-left: -15px
+  margin-right: -15px
+  margin-bottom: 280px
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  &-logo__name, &-menu__link
+    color: #fff
+
+  &__logo
+    flex-basis: 20%
+    max-width: 20%
+  
+  &__menu
+    margin-left: -18px
+    margin-right: -18px
+    flex-basis: 72%
+    max-width: 72%
+
+  &-logo
+    display: flex
+    text-transform: uppercase
+    letter-spacing: 2px
+
+    &__name
+      font-size: 40px
+      font-weight: 700
+
+    &__label
+      align-self: start
+      margin-top: 12px
+      margin-left: 17px
+      padding-left: 15px
+      padding-right: 15px
+      font-size: 13px
+      font-weight: 500
+      letter-spacing: 0.21px
+      line-height: 24px
+      border-radius: 5px
+      background-color: $active
+
+  &-menu
+    display: flex
+    justify-content: space-between
+    padding-left: 0
+
+    &__item
+      display: inline-block
+      list-style: none
+      text-align: center
+
+    &__link
+      padding: 15px 18px
+      border-radius: 15px
+      font-size: 22px
+      font-weight: 500
+      line-height: 15px
+      text-transform: uppercase
+      letter-spacing: 0.43px
+      transition: background-color 0.3s ease-out 0.1s
+        

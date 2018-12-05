@@ -1,0 +1,45 @@
+=font-face($family, $path, $name, $svg, $weight: normal, $style: normal)
+  @font-face
+    font-family: $family
+    font-display: swap
+    src: url('#{$path}/#{$name}.eot')
+    src: url('#{$path}/#{$name}.eot?#iefix') format('embedded-opentype'), url('#{$path}/#{$name}.woff2') format('woff2'), url('#{$path}/#{$name}.woff') format('woff'), url('#{$path}/#{$name}.ttf') format('truetype'), url('#{$path}/#{$name}.svg##{$svg}') format('svg')
+    font-weight: $weight
+    font-style: $style
+
+/* font-family: "Roboto - Light"; */
++font-face('Roboto', '../fonts/RobotoLight', 'Roboto-Light', 'Roboto-Light', $weight: 300)
+
+/* font-family: "Roboto - Regular"; */
++font-face('Roboto', '../fonts/RobotoRegular', 'Roboto-Regular', 'Roboto-Regular')
+
+/* font-family: "Roboto - Medium"; */
++font-face('Roboto', '../fonts/RobotoMedium', 'Roboto-Medium', 'Roboto-Medium', $weight: 500)
+
+/* font-family: "Roboto - Bold"; */
++font-face('Roboto', '../fonts/RobotoBold', 'Roboto-Bold', 'Roboto-Bold', $weight: 700)
+
+/* font-family: "OpenSans - Light"; */
++font-face('OpenSans', '../fonts/OpenSans-Light', 'OpenSans-Light', 'OpenSans-Light', $weight: 300)
+
+/* font-family: "OpenSans - Bold"; */
++font-face('OpenSans', '../fonts/OpenSans-Bold', 'OpenSans-Bold', 'OpenSans-Bold', $weight: 700)
+
+/* font-family: "SourceSansPro - Bold"; */
++font-face('SourceSansPro', '../fonts/SourceSansPro-Bold', 'SourceSansPro-Bold', 'SourceSansPro-Bold', $weight: 700)
+
+
+
+
+=font-face($family, $path, $name, $svg, $weight: normal, $style: normal)
+  @font-face
+    font-family: $family
+    font-display: swap
+    src: url('#{$path}/#{$name}.eot')
+    src: url('#{$path}/#{$name}.eot?#iefix') format('embedded-opentype'), url('#{$path}/#{$name}.woff2') format('woff2'), url('#{$path}/#{$name}.woff') format('woff'), url('#{$path}/#{$name}.ttf') format('truetype'), url('#{$path}/#{$name}.svg##{$svg}') format('svg')
+    font-weight: $weight
+    font-style: $style
+
+/* font-family: "Roboto - Regular"; */
+// +font-face('Roboto', '../fonts/Roboto-Regular', 'Roboto-Regular', 'Roboto-Regular')
+

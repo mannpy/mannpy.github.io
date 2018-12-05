@@ -1,0 +1,80 @@
+.js .about
+  background: none
+
+/* No JS / WebP not supported */
+.no-js .about, .js.no-webp .about
+  background:  #313236 url(../img/about/background.jpg) center/cover no-repeat
+
+/* WebP supported */
+.js.webp .about
+  background:  #313236 url(../img/about/background.webp) center/cover no-repeat
+
+
+.about
+  padding-top: 65px
+  padding-bottom: 117px
+  position: relative
+  z-index: 1
+  color: #fff
+
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(#313236, 0.9)
+
+
+  .section-title
+    color: #fff
+    font-family: 'Roboto', sans-serif
+    letter-spacing: 0.68px
+
+  &-info
+
+    &-wrap
+      margin-top: 140px
+      margin-left: -15px
+      margin-right: -15px
+      display: flex
+      justify-content: space-around
+      align-items: center
+
+    &-block
+      width: 220px
+      height: 220px
+      position: relative
+      text-align: center
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-direction: column
+
+      &:after
+        content: ''
+        display: block
+        position: absolute
+        top: -30%
+        left: -27%
+        width: 340px
+        height: 340px
+        border: 1px solid rgba(#fffff8, 0.08)
+        border-radius: 50%
+
+      &__number
+        margin-bottom: 30px
+        font-size: 73px
+        font-weight: 500
+        line-height: 29.23px
+        letter-spacing: 1px
+
+      &__text
+        font-size: 25px
+        font-weight: 300
+        line-height: 29.23px
+        text-transform: uppercase
+        letter-spacing: 0.34px
