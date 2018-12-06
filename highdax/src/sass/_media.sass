@@ -174,7 +174,6 @@
   /* About */
 
   .about
-    padding-bottom: 97px
 
     &-info
 
@@ -182,12 +181,8 @@
         justify-content: space-between
 
       &-block
-
-        &:after
-          top: -19%
-          left: -16%
-          width: 290px
-          height: 290px
+        width: 290px
+        height: 290px
 
   /* features */
 
@@ -337,12 +332,12 @@
 
   .about
     padding-top: 50px
-    padding-bottom: 77px
 
     &-info
 
-      &-wrap
-        margin-top: 120px
+      &-block
+        width: 270px
+        height: 270px
 
   /* features */
 
@@ -498,23 +493,15 @@
 
   .about
     padding-top: 40px
-    padding-bottom: 57px
 
     &-info
 
       &-wrap
-        margin-top: 90px
         flex-wrap: wrap
 
       &-block
-        width: 180px
-        height: 180px
-
-        &:after
-          top: -10%
-          left: -5%
-          width: 200px
-          height: 200px
+        width: 200px
+        height: 200px
 
         &__number
           margin-bottom: 20px
@@ -587,7 +574,7 @@
   .contact
     padding-bottom: 40px
 
-    &:before
+    &__title
       width: 800px
       height: 66px
       margin-top: -33px
@@ -691,17 +678,14 @@
     &-info
 
       &-wrap
-        margin-top: 70px
+        margin-top: 50px
 
       &-block
-        margin-bottom: 50px
-        flex-basis: 40%
-
-        &:after
-          top: -13%
-          left: 13%
-          width: 210px
-          height: 210px
+        margin-bottom: 30px
+        flex-basis: 35%
+        width: 252px
+        height: 252px
+          
 
         &__text
           max-width: 180px
@@ -779,7 +763,7 @@
   .contact
     padding-bottom: 30px
 
-    &:before
+    &__title
       width: 650px
       height: 60px
       margin-top: -30px
@@ -988,13 +972,14 @@
     padding-bottom: 20px
 
     &-info
+      &-wrap
+        flex-direction: column
+        justify-content: center
 
       &-block
-        margin-bottom: 45px
-        flex-basis: 80%
-
-        &:after
-          left: 26%
+        margin-bottom: 25px
+        max-width: 220px
+        min-height: 220px
 
   /* features */
 
@@ -1054,7 +1039,7 @@
 
   .contact
 
-    &:before
+    &__title
       width: 100%
       height: 50px
       margin-top: -25px
@@ -1210,14 +1195,7 @@
       &-block
         margin-bottom: 15px
         width: 160px
-        height: 160px
-        flex-basis: 80%
-
-        &:after
-          top: -1%
-          left: calc(50% - 80px)
-          width: 160px
-          height: 160px
+        min-height: 160px
 
         &__number
           margin-bottom: 10px
@@ -1226,6 +1204,7 @@
         &__text
           max-width: 140px
           font-size: 14px
+          line-height: 22px
 
 
   /* features */
@@ -1311,7 +1290,7 @@
   .contact
     padding-bottom: 25px
 
-    &:before
+    &__title
       width: 100%
       height: 40px
       margin-top: -20px
